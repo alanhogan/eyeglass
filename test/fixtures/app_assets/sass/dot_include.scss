@@ -1,5 +1,7 @@
 @import "heavy.weights/animal.noises";
+@import "../includable_scss/bower_components/acme-settings.variables/padding.variables";
 
 .bat-noise {
   color: $noise-bats-make;
+  padding: $acme-standard-padding;
 }

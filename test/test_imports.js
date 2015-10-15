@@ -59,7 +59,8 @@ describe("core api", function () {
 
   it("should be able to @import a sass file with a dots in its directory name and file name", function(done) {
     var expected = ".bat-noise {\n" +
-                   "  color: #eee; }\n";
+                   "  color: #eee;\n" +
+                   "  padding: 16px; }\n";
     var rootDir = testutils.fixtureDirectory("app_assets");
     var eg = new Eyeglass({
       root: rootDir,
